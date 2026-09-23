@@ -1,5 +1,7 @@
 # Career Quest
 
+Hackathon team repository for **Soloboy** (`hack-eef83eae-soloboy`).
+
 **AI Navigator for Employee Development · Halyk Bank track · HackAlem**
 
 [Русская инструкция](README_RU.md) · [Проверка по официальному ТЗ](docs/REVIEW.md)
