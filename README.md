@@ -2,6 +2,8 @@
 
 **AI Navigator for Employee Development · Halyk Bank track · HackAlem**
 
+[Русская инструкция](README_RU.md) · [Проверка по официальному ТЗ](docs/REVIEW.md)
+
 Career Quest helps employees identify a useful next development activity and gives HR an aggregate view of skill gaps and participation. It uses real JSON/CSV ingestion, transparent multi-factor scoring, and persistent completion updates.
 
 **The recommendation engine performs the decision-making and the LLM provides a human-readable explanation.** No API key is required. No recommendations are hardcoded.
@@ -105,7 +107,7 @@ Invalid output, timeout, authentication failure, or a missing key returns a dete
 
 ## Dataset schema
 
-Upload all four UTF-8 files together with their exact names. JSON accepts an array or a named wrapper such as `{"employees": [...]}`. Unknown metadata fields are retained, but required fields and cross-references are validated. Levels are integer 0–10; gain is integer 1–10. IDs use letters, digits, underscores, dots or hyphens. Duplicate employee/event/skill IDs and duplicate skills in an activity are rejected. Each file is limited to 10 MB.
+Upload all four UTF-8 files together with their exact names. JSON accepts an array or a named wrapper such as `{"employees": [...]}`. Unknown metadata fields are retained, but required fields and cross-references are validated. Levels are integer 0–5; gain is integer 1–5. IDs use letters, digits, underscores, dots or hyphens. Duplicate employee/event/skill IDs and duplicate skills in an activity are rejected. Each file is limited to 10 MB.
 
 `employees.json`:
 
