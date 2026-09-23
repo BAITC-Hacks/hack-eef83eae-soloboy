@@ -1,0 +1,22 @@
+.venv/
+.tools/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+*credentials*.json
+*.pem
+*.key
+# Official starter-kit data must remain local per the hackathon specification.
+data/*
+!data/sample/
+!data/jury-example/
+*.sqlite*
+runtime/
+*.log
+test-results/
+*.tsbuildinfo

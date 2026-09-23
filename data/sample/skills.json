@@ -1,0 +1,163 @@
+[
+  {
+    "skill_id": "SK_PYTHON",
+    "name": "Python",
+    "category": "hard",
+    "roles": [
+      "Backend Engineer"
+    ],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_SYSTEM_DESIGN",
+    "name": "System Design",
+    "category": "hard",
+    "roles": [
+      "Backend Engineer"
+    ],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 2,
+      "Senior": 4
+    },
+    "importance": 2
+  },
+  {
+    "skill_id": "SK_SQL",
+    "name": "SQL & Data Modeling",
+    "category": "hard",
+    "roles": [
+      "Backend Engineer",
+      "Data Analyst"
+    ],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_ANALYTICS",
+    "name": "Data Analysis",
+    "category": "hard",
+    "roles": [
+      "Data Analyst"
+    ],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 5
+    },
+    "importance": 2
+  },
+  {
+    "skill_id": "SK_PRODUCT",
+    "name": "Product Discovery",
+    "category": "hard",
+    "roles": [
+      "Product Manager"
+    ],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_STRATEGY",
+    "name": "Product Strategy",
+    "category": "hard",
+    "roles": [
+      "Product Manager"
+    ],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 2,
+      "Senior": 4
+    },
+    "importance": 2
+  },
+  {
+    "skill_id": "SK_PUBLIC_SPEAKING",
+    "name": "Public Speaking",
+    "category": "soft",
+    "roles": [],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 2,
+      "Senior": 3
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_LEADERSHIP",
+    "name": "Leadership",
+    "category": "soft",
+    "roles": [],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 2,
+      "Senior": 3
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_COLLABORATION",
+    "name": "Collaboration",
+    "category": "soft",
+    "roles": [],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_SECURITY",
+    "name": "Security Awareness",
+    "category": "hard",
+    "roles": [],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_CLOUD",
+    "name": "Cloud Architecture",
+    "category": "hard",
+    "roles": [
+      "Backend Engineer"
+    ],
+    "requirements": {
+      "Junior": 1,
+      "Middle": 2,
+      "Senior": 4
+    },
+    "importance": 1
+  },
+  {
+    "skill_id": "SK_VISUALIZATION",
+    "name": "Data Visualization",
+    "category": "hard",
+    "roles": [
+      "Data Analyst"
+    ],
+    "requirements": {
+      "Junior": 2,
+      "Middle": 3,
+      "Senior": 4
+    },
+    "importance": 1
+  }
+]

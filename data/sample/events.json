@@ -1,0 +1,372 @@
+[
+  {
+    "event_id": "EV001",
+    "name": "Python Workshop",
+    "type": "workshop",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_PYTHON",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build python through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV002",
+    "name": "Python Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_PYTHON",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build python through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV003",
+    "name": "System Design Workshop",
+    "type": "workshop",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_SYSTEM_DESIGN",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build system design through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV004",
+    "name": "System Design Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_SYSTEM_DESIGN",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build system design through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV005",
+    "name": "SQL & Data Modeling Workshop",
+    "type": "workshop",
+    "audience": [
+      "Backend Engineer",
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_SQL",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build sql & data modeling through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV006",
+    "name": "SQL & Data Modeling Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Backend Engineer",
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_SQL",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build sql & data modeling through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV007",
+    "name": "Data Analysis Workshop",
+    "type": "workshop",
+    "audience": [
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_ANALYTICS",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build data analysis through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV008",
+    "name": "Data Analysis Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_ANALYTICS",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build data analysis through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV009",
+    "name": "Product Discovery Workshop",
+    "type": "workshop",
+    "audience": [
+      "Product Manager"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_PRODUCT",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build product discovery through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV010",
+    "name": "Product Discovery Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Product Manager"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_PRODUCT",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build product discovery through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV011",
+    "name": "Product Strategy Workshop",
+    "type": "workshop",
+    "audience": [
+      "Product Manager"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_STRATEGY",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build product strategy through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV012",
+    "name": "Product Strategy Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Product Manager"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_STRATEGY",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build product strategy through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV013",
+    "name": "Public Speaking Workshop",
+    "type": "workshop",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_PUBLIC_SPEAKING",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build public speaking through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV014",
+    "name": "Public Speaking Practice Lab",
+    "type": "mentoring",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_PUBLIC_SPEAKING",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build public speaking through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV015",
+    "name": "Leadership Workshop",
+    "type": "workshop",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_LEADERSHIP",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build leadership through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV016",
+    "name": "Leadership Practice Lab",
+    "type": "mentoring",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_LEADERSHIP",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build leadership through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV017",
+    "name": "Collaboration Workshop",
+    "type": "workshop",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_COLLABORATION",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build collaboration through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV018",
+    "name": "Collaboration Practice Lab",
+    "type": "mentoring",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_COLLABORATION",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build collaboration through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV019",
+    "name": "Security Awareness Workshop",
+    "type": "workshop",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_SECURITY",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build security awareness through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV020",
+    "name": "Security Awareness Practice Lab",
+    "type": "mentoring",
+    "audience": [],
+    "skills": [
+      {
+        "skill_id": "SK_SECURITY",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build security awareness through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV021",
+    "name": "Cloud Architecture Workshop",
+    "type": "workshop",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_CLOUD",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build cloud architecture through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV022",
+    "name": "Cloud Architecture Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Backend Engineer"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_CLOUD",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build cloud architecture through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV023",
+    "name": "Data Visualization Workshop",
+    "type": "workshop",
+    "audience": [
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_VISUALIZATION",
+        "gain": 1,
+        "max_level": 4
+      }
+    ],
+    "description": "Build data visualization through guided exercises and practical workplace scenarios."
+  },
+  {
+    "event_id": "EV024",
+    "name": "Data Visualization Practice Lab",
+    "type": "mentoring",
+    "audience": [
+      "Data Analyst"
+    ],
+    "skills": [
+      {
+        "skill_id": "SK_VISUALIZATION",
+        "gain": 1,
+        "max_level": 5
+      }
+    ],
+    "description": "Build data visualization through guided exercises and practical workplace scenarios."
+  }
+]

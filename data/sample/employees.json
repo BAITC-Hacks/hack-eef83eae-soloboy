@@ -1,0 +1,194 @@
+[
+  {
+    "employee_id": "E0001",
+    "name": "Aigerim Sadykova",
+    "role": "Backend Engineer",
+    "grade": "Middle",
+    "tenure_months": 48,
+    "skills": {
+      "SK_PYTHON": 3,
+      "SK_SYSTEM_DESIGN": 2,
+      "SK_SQL": 3,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 1,
+      "SK_COLLABORATION": 1,
+      "SK_SECURITY": 1,
+      "SK_CLOUD": 3
+    }
+  },
+  {
+    "employee_id": "E0002",
+    "name": "Daniyar Karimov",
+    "role": "Data Analyst",
+    "grade": "Middle",
+    "tenure_months": 14,
+    "skills": {
+      "SK_SQL": 3,
+      "SK_ANALYTICS": 3,
+      "SK_PUBLIC_SPEAKING": 3,
+      "SK_LEADERSHIP": 1,
+      "SK_COLLABORATION": 3,
+      "SK_SECURITY": 2,
+      "SK_VISUALIZATION": 1
+    }
+  },
+  {
+    "employee_id": "E0003",
+    "name": "Amina Nur",
+    "role": "Product Manager",
+    "grade": "Middle",
+    "tenure_months": 9,
+    "skills": {
+      "SK_PRODUCT": 1,
+      "SK_STRATEGY": 1,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 3,
+      "SK_COLLABORATION": 3,
+      "SK_SECURITY": 1
+    }
+  },
+  {
+    "employee_id": "E0004",
+    "name": "Timur Saken",
+    "role": "Backend Engineer",
+    "grade": "Middle",
+    "tenure_months": 43,
+    "skills": {
+      "SK_PYTHON": 1,
+      "SK_SYSTEM_DESIGN": 3,
+      "SK_SQL": 3,
+      "SK_PUBLIC_SPEAKING": 3,
+      "SK_LEADERSHIP": 3,
+      "SK_COLLABORATION": 2,
+      "SK_SECURITY": 1,
+      "SK_CLOUD": 2
+    }
+  },
+  {
+    "employee_id": "E0005",
+    "name": "Dana Omarova",
+    "role": "Data Analyst",
+    "grade": "Junior",
+    "tenure_months": 45,
+    "skills": {
+      "SK_SQL": 2,
+      "SK_ANALYTICS": 1,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 3,
+      "SK_COLLABORATION": 2,
+      "SK_SECURITY": 2,
+      "SK_VISUALIZATION": 2
+    }
+  },
+  {
+    "employee_id": "E0006",
+    "name": "Alikhan Bek",
+    "role": "Product Manager",
+    "grade": "Senior",
+    "tenure_months": 17,
+    "skills": {
+      "SK_PRODUCT": 1,
+      "SK_STRATEGY": 2,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 1,
+      "SK_COLLABORATION": 2,
+      "SK_SECURITY": 1
+    }
+  },
+  {
+    "employee_id": "E0007",
+    "name": "Madina Zhan",
+    "role": "Backend Engineer",
+    "grade": "Middle",
+    "tenure_months": 30,
+    "skills": {
+      "SK_PYTHON": 2,
+      "SK_SYSTEM_DESIGN": 3,
+      "SK_SQL": 2,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 3,
+      "SK_COLLABORATION": 2,
+      "SK_SECURITY": 3,
+      "SK_CLOUD": 1
+    }
+  },
+  {
+    "employee_id": "E0008",
+    "name": "Arman Toleu",
+    "role": "Data Analyst",
+    "grade": "Junior",
+    "tenure_months": 70,
+    "skills": {
+      "SK_SQL": 2,
+      "SK_ANALYTICS": 1,
+      "SK_PUBLIC_SPEAKING": 3,
+      "SK_LEADERSHIP": 2,
+      "SK_COLLABORATION": 3,
+      "SK_SECURITY": 3,
+      "SK_VISUALIZATION": 2
+    }
+  },
+  {
+    "employee_id": "E0009",
+    "name": "Asel Murat",
+    "role": "Product Manager",
+    "grade": "Senior",
+    "tenure_months": 44,
+    "skills": {
+      "SK_PRODUCT": 1,
+      "SK_STRATEGY": 3,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 1,
+      "SK_COLLABORATION": 3,
+      "SK_SECURITY": 1
+    }
+  },
+  {
+    "employee_id": "E0010",
+    "name": "Nursultan Ali",
+    "role": "Backend Engineer",
+    "grade": "Middle",
+    "tenure_months": 57,
+    "skills": {
+      "SK_PYTHON": 2,
+      "SK_SYSTEM_DESIGN": 1,
+      "SK_SQL": 1,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 2,
+      "SK_COLLABORATION": 2,
+      "SK_SECURITY": 2,
+      "SK_CLOUD": 3
+    }
+  },
+  {
+    "employee_id": "E0011",
+    "name": "Kamila Serik",
+    "role": "Data Analyst",
+    "grade": "Junior",
+    "tenure_months": 61,
+    "skills": {
+      "SK_SQL": 2,
+      "SK_ANALYTICS": 1,
+      "SK_PUBLIC_SPEAKING": 2,
+      "SK_LEADERSHIP": 2,
+      "SK_COLLABORATION": 1,
+      "SK_SECURITY": 3,
+      "SK_VISUALIZATION": 2
+    }
+  },
+  {
+    "employee_id": "E0012",
+    "name": "Dias Askar",
+    "role": "Product Manager",
+    "grade": "Senior",
+    "tenure_months": 52,
+    "skills": {
+      "SK_PRODUCT": 3,
+      "SK_STRATEGY": 3,
+      "SK_PUBLIC_SPEAKING": 1,
+      "SK_LEADERSHIP": 3,
+      "SK_COLLABORATION": 3,
+      "SK_SECURITY": 1
+    }
+  }
+]
