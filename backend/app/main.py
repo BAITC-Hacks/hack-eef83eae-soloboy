@@ -1,6 +1,6 @@
 import asyncio
 import os
-from collections import Counter
+from collections import Counter, defaultdict
 from contextlib import asynccontextmanager
 from datetime import date, timedelta
 from pathlib import Path
@@ -113,12 +113,17 @@ def create_app(db=None, dataset_dir=None):
         require_hr(request)
         data = app.state.store.snapshot()
         gaps, overview = Counter(), []
+        history_by_employee, history_by_event = defaultdict(list), defaultdict(list)
+        for record in data.history:
+            history_by_employee[record.employee_id].append(record)
+            history_by_event[record.event_id].append(record)
         for employee in data.employees:
             trajectory = analyze(employee, data)
             missing = sorted((s for s in trajectory['skills'] if s['gap']), key=lambda s: -s['gap'])
             gaps.update(s['name'] for s in missing)
-            recs = recommend(employee, data)
-            completed_dates = [h.date for h in data.history if h.employee_id == employee.employee_id and h.status == 'completed']
+            employee_history = history_by_employee[employee.employee_id]
+            recs = recommend(employee, data.model_copy(update={'history': employee_history}))
+            completed_dates = [h.date for h in employee_history if h.status == 'completed']
             last_completed = max(completed_dates, default=None)
             overview.append({'employee_id': employee.employee_id, 'name': employee.name, 'role': employee.role,
                              'grade': employee.grade, 'main_gap': missing[0]['name'] if missing else None,
@@ -130,7 +135,7 @@ def create_app(db=None, dataset_dir=None):
         active = {h.employee_id for h in data.history if h.status == 'completed' and h.date >= cutoff}
         participation = []
         for event in data.events:
-            records = [h for h in data.history if h.event_id == event.event_id]
+            records = history_by_event[event.event_id]
             participation.append({'event_id': event.event_id, 'name': event.name, 'participants': len({h.employee_id for h in records}),
                                   'completed': sum(h.status == 'completed' for h in records),
                                   'skipped': sum(h.status == 'skipped' for h in records), 'rejected': sum(h.status == 'rejected' for h in records)})
